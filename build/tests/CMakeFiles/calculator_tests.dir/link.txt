@@ -1,0 +1,1 @@
+/sbin/c++ -Wl,--dependency-file=CMakeFiles/calculator_tests.dir/link.d CMakeFiles/calculator_tests.dir/test.cpp.o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o -o calculator_tests  ../lib/libgtest.a ../lib/libgtest_main.a -lSDL3 ../lib/libgtest.a
