@@ -1,1 +1,0 @@
-/sbin/c++ -Wl,--dependency-file=CMakeFiles/Calculator.dir/link.d CMakeFiles/Calculator.dir/main.cpp.o CMakeFiles/app_objects.dir/Button.cpp.o -o Calculator  -lSDL2 -lpthread -ldl
