@@ -72,24 +72,10 @@ include tests/CMakeFiles/calculator_tests.dir/flags.make
 tests/CMakeFiles/calculator_tests.dir/codegen:
 .PHONY : tests/CMakeFiles/calculator_tests.dir/codegen
 
-tests/CMakeFiles/calculator_tests.dir/test.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
-tests/CMakeFiles/calculator_tests.dir/test.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/test.cpp
-tests/CMakeFiles/calculator_tests.dir/test.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/calculator_tests.dir/test.cpp.o"
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/test.cpp.o -MF CMakeFiles/calculator_tests.dir/test.cpp.o.d -o CMakeFiles/calculator_tests.dir/test.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/test.cpp"
-
-tests/CMakeFiles/calculator_tests.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/test.cpp.i"
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/test.cpp" > CMakeFiles/calculator_tests.dir/test.cpp.i
-
-tests/CMakeFiles/calculator_tests.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/test.cpp.s"
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/test.cpp" -o CMakeFiles/calculator_tests.dir/test.cpp.s
-
 tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
 tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Button.cpp
 tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o -MF CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o.d -o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp"
 
 tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.i: cmake_force
@@ -100,16 +86,30 @@ tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" -o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s
 
+tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
+tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/button_test.cpp
+tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o -MF CMakeFiles/calculator_tests.dir/button_test.cpp.o.d -o CMakeFiles/calculator_tests.dir/button_test.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp"
+
+tests/CMakeFiles/calculator_tests.dir/button_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/button_test.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp" > CMakeFiles/calculator_tests.dir/button_test.cpp.i
+
+tests/CMakeFiles/calculator_tests.dir/button_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/button_test.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp" -o CMakeFiles/calculator_tests.dir/button_test.cpp.s
+
 # Object files for target calculator_tests
 calculator_tests_OBJECTS = \
-"CMakeFiles/calculator_tests.dir/test.cpp.o" \
-"CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o"
+"CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o" \
+"CMakeFiles/calculator_tests.dir/button_test.cpp.o"
 
 # External object files for target calculator_tests
 calculator_tests_EXTERNAL_OBJECTS =
 
-tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/test.cpp.o
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o
+tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/build.make
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
 tests/calculator_tests: lib/libgtest.a

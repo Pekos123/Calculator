@@ -1,5 +1,9 @@
 #include <SDL3/SDL.h>
+#include "../include/Button.h"
 #include <iostream>
+
+const u_int16_t WINDOW_WIDTH = 640;
+const u_int16_t WINDOW_HEIGHT = 960;
 
 int main(int argc, char* argv[]) {
     if (!SDL_Init(SDL_INIT_VIDEO)) {
@@ -9,7 +13,7 @@ int main(int argc, char* argv[]) {
 
     SDL_Window* window = SDL_CreateWindow(
         "SDL3 Calculator", // title
-        640, 480,          // w, h
+        WINDOW_WIDTH, WINDOW_HEIGHT,
         0                  // flags (use 0 for default)
     );
 
@@ -22,17 +26,25 @@ int main(int argc, char* argv[]) {
     bool running = true;
 
     SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr);
+    
+    Button button(renderer,
+                  {WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2, 150, 150},
+                  {255, 255, 255, 255});
 
-    while (running) {
+    while (running)
+    {
         SDL_Event event;
-        while (SDL_PollEvent(&event)) {
-            if (event.type == SDL_EVENT_QUIT) {
+        while (SDL_PollEvent(&event)) 
+        {
+            if (event.type == SDL_EVENT_QUIT)
                 running = false;
-            }
         }
 
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
+
+        button.Draw(renderer);
+        
         SDL_RenderPresent(renderer);
 
         SDL_Delay(16); // To not overload CPU

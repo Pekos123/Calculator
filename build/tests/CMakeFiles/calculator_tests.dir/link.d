@@ -2,8 +2,8 @@ calculator_tests: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
-  CMakeFiles/calculator_tests.dir/test.cpp.o \
   CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o \
+  CMakeFiles/calculator_tests.dir/button_test.cpp.o \
   ../lib/libgtest.a \
   ../lib/libgtest_main.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libSDL3.so \
@@ -42,9 +42,9 @@ calculator_tests: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
 
-CMakeFiles/calculator_tests.dir/test.cpp.o:
-
 CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o:
+
+CMakeFiles/calculator_tests.dir/button_test.cpp.o:
 
 ../lib/libgtest.a:
 

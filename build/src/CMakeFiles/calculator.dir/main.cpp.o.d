@@ -81,6 +81,7 @@ src/CMakeFiles/calculator.dir/main.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Button.h \
  /usr/include/c++/15.1.1/iostream \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \

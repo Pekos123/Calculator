@@ -1,8 +1,8 @@
 enable_testing()
 
 add_executable(calculator_tests
-    test.cpp
     ../src/Button.cpp
+    button_test.cpp
 )
 
 # Link against GTest and SDL3
