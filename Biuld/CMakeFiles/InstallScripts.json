@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/cmake_install.cmake",
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/lib/googletest/cmake_install.cmake",
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/lib/googletest/googlemock/cmake_install.cmake",
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/lib/googletest/googletest/cmake_install.cmake",
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/src/cmake_install.cmake",
+		"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/Biuld/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
