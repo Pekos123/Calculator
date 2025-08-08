@@ -192,9 +192,6 @@ CMAKE_OBJCOPY:FILEPATH=/sbin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/sbin/objdump
 
-//No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/../lib/SDL3/local
-
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
