@@ -38,6 +38,8 @@ int main(int argc, char* argv[]) {
         {
             if (event.type == SDL_EVENT_QUIT)
                 running = false;
+            if(button.IsButtonPressed(&event))
+                std::cout << "Button Pressed\n";
         }
 
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);

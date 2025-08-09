@@ -14,6 +14,7 @@ public:
     Button(SDL_Renderer* renderer, const SDL_FRect& rect, const SDL_Color& color);
 
     void Draw(SDL_Renderer* renderer);
+    bool IsButtonPressed(const SDL_Event* ev);
 
     SDL_FRect GetRect();
     SDL_Color GetColor();
