@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o.d"
-  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/test.cpp" "tests/CMakeFiles/calculator_tests.dir/test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/test.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp" "tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp" "tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o.d"
   "" "tests/calculator_tests" "gcc" "tests/CMakeFiles/calculator_tests.dir/link.d"
   )
 

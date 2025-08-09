@@ -4,7 +4,7 @@
 # compile CXX with /sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include" -isystem "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include" -isystem "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest"
+CXX_INCLUDES = -I"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include" -I"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include" -isystem "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include" -isystem "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest"
 
 CXX_FLAGS = -std=gnu++17
 

@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/lib/googletest/googlemock",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/src/gmock-all.cc\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/src/gmock-all.cc",
+  "output": "lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/lib/googletest/googlemock",
+  "command": "/sbin/c++  -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/src/gmock_main.cc\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googlemock/src/gmock_main.cc",
+  "output": "lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/lib/googletest/googletest",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/src/gtest-all.cc\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/src/gtest-all.cc",
+  "output": "lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/lib/googletest/googletest",
+  "command": "/sbin/c++  -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/src/gtest_main.cc\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/src/gtest_main.cc",
+  "output": "lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -std=gnu++17 -o CMakeFiles/calculator.dir/main.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/main.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/main.cpp",
+  "output": "src/CMakeFiles/calculator.dir/main.cpp.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -std=gnu++17 -o CMakeFiles/calculator.dir/Button.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp",
+  "output": "src/CMakeFiles/calculator.dir/Button.cpp.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp",
+  "output": "tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/button_test.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp",
+  "output": "tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/font_test.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp",
+  "output": "tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o"
+}
+]

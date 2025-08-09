@@ -199,29 +199,53 @@ __/src/Button.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s
 .PHONY : __/src/Button.cpp.s
 
-test.o: test.cpp.o
-.PHONY : test.o
+button_test.o: button_test.cpp.o
+.PHONY : button_test.o
 
 # target to build an object file
-test.cpp.o:
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/test.cpp.o
-.PHONY : test.cpp.o
+button_test.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o
+.PHONY : button_test.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+button_test.i: button_test.cpp.i
+.PHONY : button_test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/test.cpp.i
-.PHONY : test.cpp.i
+button_test.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/button_test.cpp.i
+.PHONY : button_test.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+button_test.s: button_test.cpp.s
+.PHONY : button_test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/test.cpp.s
-.PHONY : test.cpp.s
+button_test.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/button_test.cpp.s
+.PHONY : button_test.cpp.s
+
+font_test.o: font_test.cpp.o
+.PHONY : font_test.o
+
+# target to build an object file
+font_test.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o
+.PHONY : font_test.cpp.o
+
+font_test.i: font_test.cpp.i
+.PHONY : font_test.i
+
+# target to preprocess a source file
+font_test.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.i
+.PHONY : font_test.cpp.i
+
+font_test.s: font_test.cpp.s
+.PHONY : font_test.s
+
+# target to generate assembly for a file
+font_test.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.s
+.PHONY : font_test.cpp.s
 
 # Help Target
 help:
@@ -239,9 +263,12 @@ help:
 	@echo "... __/src/Button.o"
 	@echo "... __/src/Button.i"
 	@echo "... __/src/Button.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... button_test.o"
+	@echo "... button_test.i"
+	@echo "... button_test.s"
+	@echo "... font_test.o"
+	@echo "... font_test.i"
+	@echo "... font_test.s"
 .PHONY : help
 
 
