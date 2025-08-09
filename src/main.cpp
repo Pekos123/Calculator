@@ -6,8 +6,16 @@ const u_int16_t WINDOW_WIDTH = 640;
 const u_int16_t WINDOW_HEIGHT = 960;
 
 int main(int argc, char* argv[]) {
+    
+    TTF_Init();
     if (!SDL_Init(SDL_INIT_VIDEO)) {
         std::cerr << "SDL_Init Error: " << SDL_GetError() << std::endl;
+        return 1;
+    }
+   
+    TTF_Font* font = TTF_OpenFont("font.otf", 24);
+    if (!font) {
+        SDL_Log("Failed to load font: %s", SDL_GetError());
         return 1;
     }
 
@@ -16,7 +24,6 @@ int main(int argc, char* argv[]) {
         WINDOW_WIDTH, WINDOW_HEIGHT,
         0                  // flags (use 0 for default)
     );
-
     if (!window) {
         std::cerr << "SDL_CreateWindow Error: " << SDL_GetError() << std::endl;
         SDL_Quit();

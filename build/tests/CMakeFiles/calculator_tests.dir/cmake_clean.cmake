@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o.d"
   "CMakeFiles/calculator_tests.dir/button_test.cpp.o"
   "CMakeFiles/calculator_tests.dir/button_test.cpp.o.d"
+  "CMakeFiles/calculator_tests.dir/font_test.cpp.o"
+  "CMakeFiles/calculator_tests.dir/font_test.cpp.o.d"
   "calculator_tests"
   "calculator_tests.pdb"
 )

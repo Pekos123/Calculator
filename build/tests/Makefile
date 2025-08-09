@@ -223,6 +223,30 @@ button_test.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/button_test.cpp.s
 .PHONY : button_test.cpp.s
 
+font_test.o: font_test.cpp.o
+.PHONY : font_test.o
+
+# target to build an object file
+font_test.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o
+.PHONY : font_test.cpp.o
+
+font_test.i: font_test.cpp.i
+.PHONY : font_test.i
+
+# target to preprocess a source file
+font_test.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.i
+.PHONY : font_test.cpp.i
+
+font_test.s: font_test.cpp.s
+.PHONY : font_test.s
+
+# target to generate assembly for a file
+font_test.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.s
+.PHONY : font_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +266,9 @@ help:
 	@echo "... button_test.o"
 	@echo "... button_test.i"
 	@echo "... button_test.s"
+	@echo "... font_test.o"
+	@echo "... font_test.i"
+	@echo "... font_test.s"
 .PHONY : help
 
 

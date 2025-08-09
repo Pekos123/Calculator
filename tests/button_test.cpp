@@ -20,3 +20,4 @@ TEST(Button, Isnt_NULL)
     EXPECT_FALSE(AreRectsEqual(button.GetRect(), {0, 0, 0, 0}));
     EXPECT_FALSE(AreColorsEqual(button.GetColor(), {0, 0, 0, 0}));
 }
+
