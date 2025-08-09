@@ -2,8 +2,13 @@
 #include "../include/Button.h"
 #include <iostream>
 
-const u_int16_t WINDOW_WIDTH = 640;
-const u_int16_t WINDOW_HEIGHT = 960;
+#define BLACK {0, 0, 0, 255}
+#define GRAY {20, 20, 20, 255}
+#define WHITE {255, 255, 255, 255}
+#define RED {255, 0, 0, 255}
+
+#define WINDOW_WIDTH 640
+#define WINDOW_HEIGHT 960
 
 int main(int argc, char* argv[]) {
     
@@ -13,7 +18,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
    
-    TTF_Font* font = TTF_OpenFont("font.otf", 24);
+    TTF_Font* font = TTF_OpenFont("font.otf", 256);
     if (!font) {
         SDL_Log("Failed to load font: %s", SDL_GetError());
         return 1;
@@ -32,11 +37,11 @@ int main(int argc, char* argv[]) {
 
     bool running = true;
 
-    SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr);
-    
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr); 
     Button button(renderer,
                   {WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2, 150, 150},
-                  {255, 255, 255, 255});
+                  WHITE, 
+                  font, GRAY, "Test", 50);
 
     while (running)
     {
