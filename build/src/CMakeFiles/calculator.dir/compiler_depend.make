@@ -281,12 +281,15 @@ src/CMakeFiles/calculator.dir/main.cpp.o: /home/pablo/Desktop/C++\ Projects/lear
   /usr/include/c++/15.1.1/bits/requires_hosted.h \
   /usr/include/c++/15.1.1/bits/std_abs.h \
   /usr/include/c++/15.1.1/bits/stl_algobase.h \
+  /usr/include/c++/15.1.1/bits/stl_bvector.h \
   /usr/include/c++/15.1.1/bits/stl_construct.h \
   /usr/include/c++/15.1.1/bits/stl_function.h \
   /usr/include/c++/15.1.1/bits/stl_iterator.h \
   /usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.1.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/15.1.1/bits/stl_pair.h \
+  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
+  /usr/include/c++/15.1.1/bits/stl_vector.h \
   /usr/include/c++/15.1.1/bits/streambuf.tcc \
   /usr/include/c++/15.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.1.1/bits/string_view.tcc \
@@ -294,6 +297,7 @@ src/CMakeFiles/calculator.dir/main.cpp.o: /home/pablo/Desktop/C++\ Projects/lear
   /usr/include/c++/15.1.1/bits/uses_allocator.h \
   /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/15.1.1/bits/utility.h \
+  /usr/include/c++/15.1.1/bits/vector.tcc \
   /usr/include/c++/15.1.1/bits/version.h \
   /usr/include/c++/15.1.1/cctype \
   /usr/include/c++/15.1.1/cerrno \
@@ -328,6 +332,7 @@ src/CMakeFiles/calculator.dir/main.cpp.o: /home/pablo/Desktop/C++\ Projects/lear
   /usr/include/c++/15.1.1/tuple \
   /usr/include/c++/15.1.1/type_traits \
   /usr/include/c++/15.1.1/typeinfo \
+  /usr/include/c++/15.1.1/vector \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -452,6 +457,12 @@ src/CMakeFiles/calculator.dir/Button.cpp.o:
 
 /usr/include/linux/stddef.h:
 
+/usr/include/linux/errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/ctype.h:
+
 /usr/include/bits/struct_rwlock.h:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_pen.h:
@@ -502,6 +513,8 @@ src/CMakeFiles/calculator.dir/Button.cpp.o:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_begin_code.h:
 
+/usr/include/c++/15.1.1/bits/stl_uninitialized.h:
+
 /usr/include/gnu/stubs.h:
 
 /usr/include/c++/15.1.1/bits/stl_function.h:
@@ -521,6 +534,8 @@ src/CMakeFiles/calculator.dir/Button.cpp.o:
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_joystick.h:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_error.h:
+
+/usr/include/c++/15.1.1/bits/stl_bvector.h:
 
 /usr/lib/libz.so.1:
 
@@ -614,6 +629,12 @@ src/CMakeFiles/calculator.dir/Button.cpp.o:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_hidapi.h:
 
+/usr/include/linux/sched/types.h:
+
+/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_guid.h:
+
+/usr/include/c++/15.1.1/bits/basic_string.tcc:
+
 /usr/include/c++/15.1.1/bits/postypes.h:
 
 src/CMakeFiles/calculator.dir/main.cpp.o:
@@ -695,8 +716,6 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 /usr/lib/libm.so.6:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_audio.h:
-
-/usr/include/errno.h:
 
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_mouse.h:
 
@@ -788,8 +807,6 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 
 /usr/include/bits/waitflags.h:
 
-/usr/include/ctype.h:
-
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/features.h:
@@ -798,11 +815,11 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 
 /usr/include/bits/sched.h:
 
+/usr/include/linux/posix_types.h:
+
+/usr/include/bits/types/FILE.h:
+
 /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_timer.h:
-
-/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_haptic.h:
-
-/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h:
 
 /usr/include/bits/thread-shared-types.h:
 
@@ -850,6 +867,8 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_tm.h:
 
+/usr/include/c++/15.1.1/bits/stl_vector.h:
+
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/15.1.1/cwctype:
@@ -880,9 +899,13 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 
 /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/15.1.1/bits/exception_ptr.h:
+/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_haptic.h:
 
-/usr/include/linux/errno.h:
+/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h:
+
+/usr/include/c++/15.1.1/vector:
+
+/usr/include/c++/15.1.1/bits/exception_ptr.h:
 
 /usr/include/c++/15.1.1/bits/functional_hash.h:
 
@@ -946,6 +969,8 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 
 /usr/include/c++/15.1.1/bits/utility.h:
 
+/usr/include/c++/15.1.1/bits/vector.tcc:
+
 /usr/include/c++/15.1.1/bits/version.h:
 
 /usr/include/c++/15.1.1/bits/predefined_ops.h:
@@ -993,13 +1018,3 @@ src/CMakeFiles/calculator.dir/main.cpp.o:
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/linux/posix_types.h:
-
-/home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_guid.h:
-
-/usr/include/c++/15.1.1/bits/basic_string.tcc:
-
-/usr/include/linux/sched/types.h:
