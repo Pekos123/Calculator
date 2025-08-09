@@ -113,6 +113,7 @@ src/calculator: src/CMakeFiles/calculator.dir/Button.cpp.o
 src/calculator: src/CMakeFiles/calculator.dir/build.make
 src/calculator: src/CMakeFiles/calculator.dir/compiler_depend.ts
 src/calculator: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3.so
+src/calculator: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3_ttf.so
 src/calculator: src/CMakeFiles/calculator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculator"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
