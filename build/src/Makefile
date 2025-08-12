@@ -199,6 +199,78 @@ Button.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Button.cpp.s
 .PHONY : Button.cpp.s
 
+Frame.o: Frame.cpp.o
+.PHONY : Frame.o
+
+# target to build an object file
+Frame.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Frame.cpp.o
+.PHONY : Frame.cpp.o
+
+Frame.i: Frame.cpp.i
+.PHONY : Frame.i
+
+# target to preprocess a source file
+Frame.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Frame.cpp.i
+.PHONY : Frame.cpp.i
+
+Frame.s: Frame.cpp.s
+.PHONY : Frame.s
+
+# target to generate assembly for a file
+Frame.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Frame.cpp.s
+.PHONY : Frame.cpp.s
+
+GUIElement.o: GUIElement.cpp.o
+.PHONY : GUIElement.o
+
+# target to build an object file
+GUIElement.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/GUIElement.cpp.o
+.PHONY : GUIElement.cpp.o
+
+GUIElement.i: GUIElement.cpp.i
+.PHONY : GUIElement.i
+
+# target to preprocess a source file
+GUIElement.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/GUIElement.cpp.i
+.PHONY : GUIElement.cpp.i
+
+GUIElement.s: GUIElement.cpp.s
+.PHONY : GUIElement.s
+
+# target to generate assembly for a file
+GUIElement.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/GUIElement.cpp.s
+.PHONY : GUIElement.cpp.s
+
+Text.o: Text.cpp.o
+.PHONY : Text.o
+
+# target to build an object file
+Text.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Text.cpp.o
+.PHONY : Text.cpp.o
+
+Text.i: Text.cpp.i
+.PHONY : Text.i
+
+# target to preprocess a source file
+Text.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Text.cpp.i
+.PHONY : Text.cpp.i
+
+Text.s: Text.cpp.s
+.PHONY : Text.s
+
+# target to generate assembly for a file
+Text.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Text.cpp.s
+.PHONY : Text.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -239,6 +311,15 @@ help:
 	@echo "... Button.o"
 	@echo "... Button.i"
 	@echo "... Button.s"
+	@echo "... Frame.o"
+	@echo "... Frame.i"
+	@echo "... Frame.s"
+	@echo "... GUIElement.o"
+	@echo "... GUIElement.i"
+	@echo "... GUIElement.s"
+	@echo "... Text.o"
+	@echo "... Text.i"
+	@echo "... Text.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

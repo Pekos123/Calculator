@@ -1,7 +1,7 @@
-src/CMakeFiles/calculator.dir/Button.cpp.o: \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Button.cpp \
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o: \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Text.cpp \
  /usr/include/stdc-predef.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Button.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Text.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_stdinc.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform_defines.h \
@@ -83,6 +83,4 @@ src/CMakeFiles/calculator.dir/Button.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/GUIElement.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/Text.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/GUIElement.h
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/GUIElement.h

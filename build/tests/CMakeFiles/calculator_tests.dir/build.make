@@ -86,10 +86,52 @@ tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" -o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s
 
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Frame.cpp
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o -MF CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o.d -o CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp"
+
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" > CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.i
+
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" -o CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.s
+
+tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
+tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/GUIElement.cpp
+tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o -MF CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o.d -o CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp"
+
+tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" > CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.i
+
+tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" -o CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.s
+
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Text.cpp
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o -MF CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o.d -o CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp"
+
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/__/src/Text.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" > CMakeFiles/calculator_tests.dir/__/src/Text.cpp.i
+
+tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/__/src/Text.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" -o CMakeFiles/calculator_tests.dir/__/src/Text.cpp.s
+
 tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
 tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/button_test.cpp
 tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o -MF CMakeFiles/calculator_tests.dir/button_test.cpp.o.d -o CMakeFiles/calculator_tests.dir/button_test.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp"
 
 tests/CMakeFiles/calculator_tests.dir/button_test.cpp.i: cmake_force
@@ -103,7 +145,7 @@ tests/CMakeFiles/calculator_tests.dir/button_test.cpp.s: cmake_force
 tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
 tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/font_test.cpp
 tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o -MF CMakeFiles/calculator_tests.dir/font_test.cpp.o.d -o CMakeFiles/calculator_tests.dir/font_test.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp"
 
 tests/CMakeFiles/calculator_tests.dir/font_test.cpp.i: cmake_force
@@ -114,18 +156,40 @@ tests/CMakeFiles/calculator_tests.dir/font_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/font_test.cpp.s"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp" -o CMakeFiles/calculator_tests.dir/font_test.cpp.s
 
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/flags.make
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/frame_test.cpp
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o -MF CMakeFiles/calculator_tests.dir/frame_test.cpp.o.d -o CMakeFiles/calculator_tests.dir/frame_test.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/frame_test.cpp"
+
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_tests.dir/frame_test.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/frame_test.cpp" > CMakeFiles/calculator_tests.dir/frame_test.cpp.i
+
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_tests.dir/frame_test.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/frame_test.cpp" -o CMakeFiles/calculator_tests.dir/frame_test.cpp.s
+
 # Object files for target calculator_tests
 calculator_tests_OBJECTS = \
 "CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o" \
+"CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o" \
+"CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o" \
+"CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o" \
 "CMakeFiles/calculator_tests.dir/button_test.cpp.o" \
-"CMakeFiles/calculator_tests.dir/font_test.cpp.o"
+"CMakeFiles/calculator_tests.dir/font_test.cpp.o" \
+"CMakeFiles/calculator_tests.dir/frame_test.cpp.o"
 
 # External object files for target calculator_tests
 calculator_tests_EXTERNAL_OBJECTS =
 
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o
+tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o
+tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o
+tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o
+tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/build.make
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/compiler_depend.ts
 tests/calculator_tests: lib/libgtest.a
@@ -133,7 +197,7 @@ tests/calculator_tests: lib/libgtest_main.a
 tests/calculator_tests: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3_ttf.so
 tests/calculator_tests: lib/libgtest.a
 tests/calculator_tests: tests/CMakeFiles/calculator_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calculator_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable calculator_tests"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

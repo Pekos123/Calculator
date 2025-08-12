@@ -199,6 +199,78 @@ __/src/Button.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s
 .PHONY : __/src/Button.cpp.s
 
+__/src/Frame.o: __/src/Frame.cpp.o
+.PHONY : __/src/Frame.o
+
+# target to build an object file
+__/src/Frame.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o
+.PHONY : __/src/Frame.cpp.o
+
+__/src/Frame.i: __/src/Frame.cpp.i
+.PHONY : __/src/Frame.i
+
+# target to preprocess a source file
+__/src/Frame.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.i
+.PHONY : __/src/Frame.cpp.i
+
+__/src/Frame.s: __/src/Frame.cpp.s
+.PHONY : __/src/Frame.s
+
+# target to generate assembly for a file
+__/src/Frame.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.s
+.PHONY : __/src/Frame.cpp.s
+
+__/src/GUIElement.o: __/src/GUIElement.cpp.o
+.PHONY : __/src/GUIElement.o
+
+# target to build an object file
+__/src/GUIElement.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o
+.PHONY : __/src/GUIElement.cpp.o
+
+__/src/GUIElement.i: __/src/GUIElement.cpp.i
+.PHONY : __/src/GUIElement.i
+
+# target to preprocess a source file
+__/src/GUIElement.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.i
+.PHONY : __/src/GUIElement.cpp.i
+
+__/src/GUIElement.s: __/src/GUIElement.cpp.s
+.PHONY : __/src/GUIElement.s
+
+# target to generate assembly for a file
+__/src/GUIElement.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.s
+.PHONY : __/src/GUIElement.cpp.s
+
+__/src/Text.o: __/src/Text.cpp.o
+.PHONY : __/src/Text.o
+
+# target to build an object file
+__/src/Text.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o
+.PHONY : __/src/Text.cpp.o
+
+__/src/Text.i: __/src/Text.cpp.i
+.PHONY : __/src/Text.i
+
+# target to preprocess a source file
+__/src/Text.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.i
+.PHONY : __/src/Text.cpp.i
+
+__/src/Text.s: __/src/Text.cpp.s
+.PHONY : __/src/Text.s
+
+# target to generate assembly for a file
+__/src/Text.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.s
+.PHONY : __/src/Text.cpp.s
+
 button_test.o: button_test.cpp.o
 .PHONY : button_test.o
 
@@ -247,6 +319,30 @@ font_test.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/font_test.cpp.s
 .PHONY : font_test.cpp.s
 
+frame_test.o: frame_test.cpp.o
+.PHONY : frame_test.o
+
+# target to build an object file
+frame_test.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o
+.PHONY : frame_test.cpp.o
+
+frame_test.i: frame_test.cpp.i
+.PHONY : frame_test.i
+
+# target to preprocess a source file
+frame_test.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.i
+.PHONY : frame_test.cpp.i
+
+frame_test.s: frame_test.cpp.s
+.PHONY : frame_test.s
+
+# target to generate assembly for a file
+frame_test.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.s
+.PHONY : frame_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -263,12 +359,24 @@ help:
 	@echo "... __/src/Button.o"
 	@echo "... __/src/Button.i"
 	@echo "... __/src/Button.s"
+	@echo "... __/src/Frame.o"
+	@echo "... __/src/Frame.i"
+	@echo "... __/src/Frame.s"
+	@echo "... __/src/GUIElement.o"
+	@echo "... __/src/GUIElement.i"
+	@echo "... __/src/GUIElement.s"
+	@echo "... __/src/Text.o"
+	@echo "... __/src/Text.i"
+	@echo "... __/src/Text.s"
 	@echo "... button_test.o"
 	@echo "... button_test.i"
 	@echo "... button_test.s"
 	@echo "... font_test.o"
 	@echo "... font_test.i"
 	@echo "... font_test.s"
+	@echo "... frame_test.o"
+	@echo "... frame_test.i"
+	@echo "... frame_test.s"
 .PHONY : help
 
 

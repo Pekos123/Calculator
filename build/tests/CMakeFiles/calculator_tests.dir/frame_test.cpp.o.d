@@ -1,5 +1,5 @@
-tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/button_test.cpp \
+tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o: \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/frame_test.cpp \
  /usr/include/stdc-predef.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/googletest/googletest/include/gtest/gtest.h \
  /usr/include/c++/15.1.1/cstddef \
@@ -250,7 +250,7 @@ tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/googletest/googletest/include/gtest/gtest_prod.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/Button.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/Frame.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_stdinc.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform_defines.h \
@@ -310,7 +310,8 @@ tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/GUIElement.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/Button.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/Text.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/../include/GUIElement.h

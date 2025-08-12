@@ -82,4 +82,7 @@ tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/GUIElement.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/Text.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/GUIElement.h

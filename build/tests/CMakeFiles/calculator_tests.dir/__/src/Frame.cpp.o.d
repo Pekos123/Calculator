@@ -1,6 +1,7 @@
-src/CMakeFiles/calculator.dir/main.cpp.o: \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/main.cpp \
+tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o: \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Frame.cpp \
  /usr/include/stdc-predef.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Frame.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_stdinc.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform_defines.h \
@@ -81,12 +82,6 @@ src/CMakeFiles/calculator.dir/main.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Button.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/GUIElement.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/Text.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/GUIElement.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/Frame.h \
  /usr/include/c++/15.1.1/vector \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -137,10 +132,11 @@ src/CMakeFiles/calculator.dir/main.cpp.o: \
  /usr/include/c++/15.1.1/cstddef \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/iostream \
- /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
- /usr/include/c++/15.1.1/ios /usr/include/c++/15.1.1/iosfwd \
- /usr/include/c++/15.1.1/bits/stringfwd.h \
+ /usr/include/c++/15.1.1/tuple \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/GUIElement.h \
+ /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/ostream \
+ /usr/include/c++/15.1.1/bits/ostream.h /usr/include/c++/15.1.1/ios \
+ /usr/include/c++/15.1.1/iosfwd /usr/include/c++/15.1.1/bits/stringfwd.h \
  /usr/include/c++/15.1.1/bits/postypes.h /usr/include/c++/15.1.1/cwchar \
  /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
