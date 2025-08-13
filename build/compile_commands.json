@@ -54,6 +54,12 @@
   "output": "src/CMakeFiles/calculator.dir/Text.cpp.o"
 },
 {
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -std=gnu++17 -o CMakeFiles/calculator.dir/CalculatorApp.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp",
+  "output": "src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o"
+},
+{
   "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",
   "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp\"",
   "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp",
@@ -76,6 +82,12 @@
   "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp\"",
   "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp",
   "output": "tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o"
+},
+{
+  "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",
+  "command": "/sbin/c++  -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/include\" -I\"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest/include\" -isystem \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/googletest/googletest\" -std=gnu++17 -o CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o -c \"/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp\"",
+  "file": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp",
+  "output": "tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o"
 },
 {
   "directory": "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/tests",

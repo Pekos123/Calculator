@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calculator_tests.dir/link.d"
   "CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o"
   "CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o.d"
+  "CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o"
+  "CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o.d"
   "CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o"
   "CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o.d"
   "CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o"

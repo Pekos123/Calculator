@@ -24,10 +24,12 @@ TEST(Button, Isnt_NULL)
     SDL_Renderer* renderer = nullptr;
     SDL_FRect rect{20, 20, 20, 20};
     SDL_Color color{255, 255, 255, 255};
-    Button button(renderer, rect, color, nullptr, color);  
-     
+    Text text("test", nullptr, color, rect, renderer);
+    Button button(renderer, color, rect, &text);  
+
+    SDL_Color nullColor = null;
     EXPECT_FALSE(AreRectsEqual(button.GetRect(), null));
-    EXPECT_FALSE(AreColorsEqual(button.GetBackgroundColor(), null));
-    EXPECT_FALSE(AreColorsEqual(button.GetFontColor(), null));
+    EXPECT_FALSE(AreColorsEqual(button.GetBackgroundColor(), nullColor));
+    EXPECT_FALSE(AreColorsEqual(button.text->GetFontColor(), nullColor));
 }
 

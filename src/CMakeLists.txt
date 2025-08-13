@@ -1,6 +1,10 @@
 add_executable(calculator 
     main.cpp 
     Button.cpp
+    Frame.cpp
+    GUIElement.cpp
+    Text.cpp
+    CalculatorApp.cpp
 )
 
 target_include_directories(calculator PRIVATE

@@ -6,6 +6,7 @@ calculator_tests: \
   CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o \
   CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o \
   CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o \
+  CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o \
   CMakeFiles/calculator_tests.dir/button_test.cpp.o \
   CMakeFiles/calculator_tests.dir/font_test.cpp.o \
   CMakeFiles/calculator_tests.dir/frame_test.cpp.o \
@@ -65,6 +66,8 @@ CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o:
 CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o:
 
 CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o:
+
+CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o:
 
 CMakeFiles/calculator_tests.dir/button_test.cpp.o:
 

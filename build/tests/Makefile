@@ -199,6 +199,30 @@ __/src/Button.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.s
 .PHONY : __/src/Button.cpp.s
 
+__/src/CalculatorApp.o: __/src/CalculatorApp.cpp.o
+.PHONY : __/src/CalculatorApp.o
+
+# target to build an object file
+__/src/CalculatorApp.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o
+.PHONY : __/src/CalculatorApp.cpp.o
+
+__/src/CalculatorApp.i: __/src/CalculatorApp.cpp.i
+.PHONY : __/src/CalculatorApp.i
+
+# target to preprocess a source file
+__/src/CalculatorApp.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.i
+.PHONY : __/src/CalculatorApp.cpp.i
+
+__/src/CalculatorApp.s: __/src/CalculatorApp.cpp.s
+.PHONY : __/src/CalculatorApp.s
+
+# target to generate assembly for a file
+__/src/CalculatorApp.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/calculator_tests.dir/build.make tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.s
+.PHONY : __/src/CalculatorApp.cpp.s
+
 __/src/Frame.o: __/src/Frame.cpp.o
 .PHONY : __/src/Frame.o
 
@@ -359,6 +383,9 @@ help:
 	@echo "... __/src/Button.o"
 	@echo "... __/src/Button.i"
 	@echo "... __/src/Button.s"
+	@echo "... __/src/CalculatorApp.o"
+	@echo "... __/src/CalculatorApp.i"
+	@echo "... __/src/CalculatorApp.s"
 	@echo "... __/src/Frame.o"
 	@echo "... __/src/Frame.i"
 	@echo "... __/src/Frame.s"
