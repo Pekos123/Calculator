@@ -24,8 +24,8 @@ TEST(Button, Isnt_NULL)
     SDL_Renderer* renderer = nullptr;
     SDL_FRect rect{20, 20, 20, 20};
     SDL_Color color{255, 255, 255, 255};
-    Text text("test", nullptr, color, rect, renderer);
-    Button button(renderer, color, rect, &text);  
+    std::shared_ptr<Text> text = std::make_shared<Text>("test", nullptr, color, rect, renderer);
+    Button button(renderer, color, rect, text);  
 
     SDL_Color nullColor = null;
     EXPECT_FALSE(AreRectsEqual(button.GetRect(), null));

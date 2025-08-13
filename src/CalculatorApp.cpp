@@ -2,8 +2,11 @@
 
 CalculatorApp::CalculatorApp()
 {
-    if(Init())
+    if(!Init())
         SDL_Quit();
+
+    ButtonsSetup();
+    FramesSetup();
 }
 CalculatorApp::~CalculatorApp()
 {
@@ -32,10 +35,12 @@ bool CalculatorApp::InitSDL()
 
 bool CalculatorApp::CreateWindow()
 {
-    this->window = SDL_CreateWindow(Config::WINDOW_TITLE, 
-                                          Config::WINDOW_WIDTH, 
-                                          Config::WINDOW_HEIGHT, 
-                                          Config::FLAGS);
+    this->window = SDL_CreateWindow(
+        Config::WINDOW_TITLE, 
+        Config::WINDOW_WIDTH, 
+        Config::WINDOW_HEIGHT, 
+        Config::FLAGS);
+    
     if(!window)
     {
         std::cerr << "SDL_CreateWindow Error: " << SDL_GetError() << std::endl;
@@ -65,6 +70,21 @@ bool CalculatorApp::LoadFont()
     return true;
 }
 
+Button* CalculatorApp::CreateButton(const ButtonConfig& config)
+{
+    
+    const SDL_FRect buttonRect = {0, 0, Config::BUTTON_SIZE, Config::BUTTON_SIZE};
+    auto text = std::make_shared<Text>(config.text, this->font, config.fontColor, buttonRect, this->renderer);
+
+    Button* button = new Button(
+        this->renderer,
+        config.buttonColor,
+        buttonRect,
+        std::move(text)
+    );
+    return button;
+}
+
 void CalculatorApp::Render()
 {
     ClearScreen();
@@ -81,18 +101,74 @@ void CalculatorApp::DrawGUI()
     for(const auto& element : guiElements)
         element->Draw();
 }
-
+std::vector<ButtonConfig> CalculatorApp::ButtonConfigsSetup()
+{
+    return 
+    {
+        {"C",  Colors::LIGHT_GRAY, Colors::BLACK},
+        {"±",  Colors::LIGHT_GRAY, Colors::BLACK},
+        {"%",  Colors::LIGHT_GRAY, Colors::BLACK},
+        {"÷",  Colors::ORANGE,     Colors::WHITE},
+        
+        // Row 1 - Numbers 7,8,9 and multiply
+        {"7",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"8",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"9",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"×",  Colors::ORANGE,     Colors::WHITE},
+        
+        // Row 2 - Numbers 4,5,6 and subtract
+        {"4",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"5",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"6",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"-",  Colors::ORANGE,     Colors::WHITE},
+        
+        // Row 3 - Numbers 1,2,3 and add
+        {"1",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"2",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"3",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"+",  Colors::ORANGE,     Colors::WHITE},
+        
+        // Row 4 - 0, decimal, equals
+        {"0",  Colors::DARK_GRAY,  Colors::WHITE}, // This could be double-width
+        {".",  Colors::DARK_GRAY,  Colors::WHITE},
+        {"=",  Colors::ORANGE,     Colors::WHITE}
+    };
+}
 void CalculatorApp::ButtonsSetup()
 {
-    // Setup buttons and add them to gui elements
-    const SDL_FRect buttonRect = {0, 0, Config::BUTTON_SIZE, Config::BUTTON_SIZE};
+    std::vector<ButtonConfig> configs = ButtonConfigsSetup();
+
+    guiElements.reserve(configs.size());
+
+    for(ButtonConfig config : configs)
+    {
+        Button* button = CreateButton(config);
+        guiElements.push_back(button);
+        buttons.push_back(button);
+    }
 }
 void CalculatorApp::FramesSetup()
 {
     // Setup 2 frames one for button and one for output text
-    
+    SDL_FRect bounds = {0, 150, Config::WINDOW_WIDTH, Config::WINDOW_HEIGHT-150};
+    Frame buttonFrame(bounds);
+    for(auto button : buttons)
+        buttonFrame.AddElement(button);
+    buttonFrame.elementsAligment = Aligment::Horizontal; // Bad aligment
+    buttonFrame.AlignElements();
 }
 
+void CalculatorApp::HandleEvents()
+{
+    SDL_Event event;
+    while (SDL_PollEvent(&event)) {
+        switch (event.type) {
+            case SDL_EVENT_QUIT:
+                running = false;
+                break;        
+        }
+    }
+}
 void CalculatorApp::Cleanup()
 {
     guiElements.clear();

@@ -1,9 +1,10 @@
 #include "../include/Button.h"
+#include <iostream>
 
 Button::Button(SDL_Renderer* renderer, 
                const SDL_Color& backgroundColor,
                const SDL_FRect& rect,
-               Text* text)
+               std::shared_ptr<Text> text)
 {
     GUIElement::SetPosition(rect.x, rect.y);
     GUIElement::SetSize(rect.w, rect.h);
@@ -17,9 +18,9 @@ void Button::Draw()
     SDL_SetRenderDrawColor(renderer, backgroundColor.r, backgroundColor.g, backgroundColor.b, backgroundColor.a);
     SDL_RenderFillRect(renderer, &rect); // doeasnt render well idk why
     // same with text its having not that color
-
+ 
     text->SetPosition(rect.x, rect.y);
-    text->Draw();
+    text->Draw(); // Segmentantion fault core dumped
 }
 bool Button::IsButtonPressed(const SDL_Event* ev)
 {

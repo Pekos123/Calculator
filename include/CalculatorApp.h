@@ -29,19 +29,21 @@ namespace Config
     constexpr int FONT_SIZE = 256;
 }
 
-namespace Colors
+namespace Colors 
 {
     constexpr SDL_Color BLACK = {0, 0, 0, 255};
     constexpr SDL_Color GRAY = {20, 20, 20, 255};
     constexpr SDL_Color WHITE = {255, 255, 255, 255};
-    constexpr SDL_Color RED = {255, 0, 0, 255};
+    constexpr SDL_Color ORANGE = {255, 149, 0, 255};
+    constexpr SDL_Color DARK_GRAY = {51, 51, 51, 255};
+    constexpr SDL_Color LIGHT_GRAY = {165, 165, 165, 255};
 }
 
 struct ButtonConfig
 {
-    SDL_Color fontColor;
-    SDL_Color buttonColor;
     const char* text;
+    SDL_Color fontColor;
+    SDL_Color buttonColor; 
 };
 
 class CalculatorApp
@@ -51,8 +53,9 @@ private:
     SDL_Window* window;
     TTF_Font* font;
 
-    std::vector<std::unique_ptr<GUIElement>> guiElements;
-    std::vector<std::unique_ptr<Button>> buttons;
+    std::vector<GUIElement*> guiElements; 
+    //std::vector<std::unique_ptr<Text>> texts;
+    std::vector<Button*> buttons;
     
     bool running = true;
 public:
@@ -82,5 +85,9 @@ private:
     void FramesSetup();
     void ButtonsSetup();
     void Cleanup();
+
+    Button* CreateButton(const ButtonConfig& config);
+ 
+    std::vector<ButtonConfig> ButtonConfigsSetup();
 };
 #endif

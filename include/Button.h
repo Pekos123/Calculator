@@ -4,6 +4,8 @@
 #pragma once
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_ttf.h>
+#include <memory>
+
 #include "../include/GUIElement.h"
 #include "../include/Text.h"
 
@@ -16,9 +18,9 @@ public:
     Button(SDL_Renderer* renderer, 
            const SDL_Color& backgroundColor,
            const SDL_FRect& rect,
-           Text* text);
+           std::shared_ptr<Text> text);
 
-    Text* text = nullptr;
+    std::shared_ptr<Text> text = nullptr;
     
     void Draw() override;
     bool IsButtonPressed(const SDL_Event* ev);

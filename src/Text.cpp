@@ -1,4 +1,5 @@
 #include "../include/Text.h"
+#include <iostream>
 
 Text::Text(const char* text,
            TTF_Font* font,
