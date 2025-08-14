@@ -12,8 +12,12 @@
 class Button : public GUIElement
 {
 private:
+    bool hover = false;
+
     // Bakcground
     SDL_Color backgroundColor;
+    SDL_Color hoverColor = {255, 255, 255, 80};
+    void DrawHover();
 public:
     Button(SDL_Renderer* renderer, 
            const SDL_Color& backgroundColor,

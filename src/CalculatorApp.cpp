@@ -140,22 +140,32 @@ void CalculatorApp::ButtonsSetup()
 
     guiElements.reserve(configs.size());
 
-    for(ButtonConfig config : configs)
+    for(int i = 0; i < configs.size()-1; i++)
     {
+        ButtonConfig config = configs[i];
+
         Button* button = CreateButton(config);
         guiElements.push_back(button);
         buttons.push_back(button);
     }
+
+    Button* button = CreateButton(configs[configs.size()-1]);
+    button->SetSize(Config::BUTTON_SIZE*2, button->GetRect().h);
+    guiElements.push_back(button);
+    buttons.push_back(button);
+
 }
 void CalculatorApp::FramesSetup()
 {
     // Setup 2 frames one for button and one for output text
-    SDL_FRect bounds = {0, 150, Config::WINDOW_WIDTH, Config::WINDOW_HEIGHT-150};
+    SDL_FRect bounds = {0, Config::TEXT_FIELD_SIZE, Config::WINDOW_WIDTH, Config::WINDOW_HEIGHT-Config::TEXT_FIELD_SIZE};
     Frame buttonFrame(bounds);
+
     for(auto button : buttons)
         buttonFrame.AddElement(button);
-    buttonFrame.elementsAligment = Aligment::Horizontal; // Bad aligment
-    buttonFrame.AlignElements();
+    
+    buttonFrame.elementsAligment = Aligment::Grid;
+    buttonFrame.AlignElements(); 
 }
 
 void CalculatorApp::HandleEvents()
@@ -167,6 +177,7 @@ void CalculatorApp::HandleEvents()
                 running = false;
                 break;        
         }
+        buttons[0]->IsButtonPressed(&event);
     }
 }
 void CalculatorApp::Cleanup()

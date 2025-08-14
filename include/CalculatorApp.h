@@ -17,9 +17,10 @@ namespace Config
 {
     constexpr SDL_WindowFlags FLAGS = 0;
 
-    constexpr int WINDOW_WIDTH = 640;
-    constexpr int WINDOW_HEIGHT = 960;
+    constexpr int WINDOW_WIDTH = 600;
+    constexpr int WINDOW_HEIGHT = 950;
     constexpr int BUTTON_SIZE = 150;
+    constexpr int TEXT_FIELD_SIZE = 200;
     constexpr int TARGET_FPS = 60;
     constexpr int FRAME_DELAY = 1000 / TARGET_FPS; // ~16ms
     constexpr int FRAME_SPACING = 50;

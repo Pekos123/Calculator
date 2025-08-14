@@ -10,6 +10,7 @@ enum Aligment
 {
     Horizontal,
     Vertical,
+    Grid,
     Center
 };
 
@@ -22,7 +23,7 @@ private:
     float padding; 
     
     void CalculatePositions();
-    void AlignCenter();
+    void AlignGrid();
     void AlignHorizontal();
     void AlignVertical();
 public:
