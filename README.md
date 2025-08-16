@@ -1,5 +1,8 @@
 # CALCULATOR CREATED IN C++ USING RENDER LIB SDL3
 
+## About
+Its simple 600x950 Calculator created in C++ 17 using SDL3 lib for renderering.<p>**PROJCT DONT HAVE COMPLETED MATH SYSTEM**
+
 ## How to build project?
 Linux Ubuntu/Debian
 ```bash
@@ -10,17 +13,18 @@ make
 ```
 
 ## Project Structure
-Calculator/
-├── src/                    # Source files
-│   ├── main.cpp           # Application entry point
-│   ├── CalculatorApp.cpp  # Main application class
-│   ├── Button.cpp         # Button UI component
-│   ├── Text.cpp           # Text rendering component
-│   ├── Frame.cpp          # UI layout container
-│   ├── Event.cpp          # Events
-│   ├── GUIElement.cpp     # Base UI element class
-│   └── CMakeLists.txt     # CMake build configuration
-├── include/               # Header files
+```
+Calculator/          
+├── src/                   # Source files          
+│   ├── main.cpp           # Application entry point          
+│   ├── CalculatorApp.cpp  # Main application class          
+│   ├── Button.cpp         # Button UI component          
+│   ├── Text.cpp           # Text rendering component          
+│   ├── Frame.cpp          # UI layout container          
+│   ├── Event.cpp          # Events          
+│   ├── GUIElement.cpp     # Base UI element class          
+│   └── CMakeLists.txt     # CMake build configuration          
+├── include/               # Header files          
 │   ├── CalculatorApp.h          
 │   ├── Button.h         
 │   ├── Text.h           
@@ -32,7 +36,7 @@ Calculator/
 ├── CMakeLists.txt       # CMake build configuration
 ├── .gitignore          # Git ignore rules
 └── README.md           # This file
-
+```
 ## Architecture
 *The calculator follows a modular architecture:*
 
@@ -41,5 +45,11 @@ Calculator/
 - **Button**: Interactive button component with text and click event handling
 - **Text**: Text rendering component using SDL3_ttf
 - **Frame**: Layout container for organizing UI elements
+
+## Photos
+<img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/77d265f6-353f-4c54-a174-a37460baf150" />
+<img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/edaa05d3-3f1d-4db1-b8d6-18f9a57c087c" />
+
+
 
 
