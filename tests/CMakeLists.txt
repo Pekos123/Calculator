@@ -2,8 +2,14 @@ enable_testing()
 
 add_executable(calculator_tests
     ../src/Button.cpp
+    ../src/Frame.cpp
+    ../src/GUIElement.cpp
+    ../src/Text.cpp
+    ../src/CalculatorApp.cpp
+    ../src/Event.cpp
     button_test.cpp
     font_test.cpp
+    frame_test.cpp
 )
 
 # Link against GTest and SDL3

@@ -100,22 +100,102 @@ src/CMakeFiles/calculator.dir/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/Button.cpp.s"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" -o CMakeFiles/calculator.dir/Button.cpp.s
 
+src/CMakeFiles/calculator.dir/Frame.cpp.o: src/CMakeFiles/calculator.dir/flags.make
+src/CMakeFiles/calculator.dir/Frame.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Frame.cpp
+src/CMakeFiles/calculator.dir/Frame.cpp.o: src/CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/calculator.dir/Frame.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/calculator.dir/Frame.cpp.o -MF CMakeFiles/calculator.dir/Frame.cpp.o.d -o CMakeFiles/calculator.dir/Frame.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp"
+
+src/CMakeFiles/calculator.dir/Frame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/Frame.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" > CMakeFiles/calculator.dir/Frame.cpp.i
+
+src/CMakeFiles/calculator.dir/Frame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/Frame.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" -o CMakeFiles/calculator.dir/Frame.cpp.s
+
+src/CMakeFiles/calculator.dir/GUIElement.cpp.o: src/CMakeFiles/calculator.dir/flags.make
+src/CMakeFiles/calculator.dir/GUIElement.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/GUIElement.cpp
+src/CMakeFiles/calculator.dir/GUIElement.cpp.o: src/CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/calculator.dir/GUIElement.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/calculator.dir/GUIElement.cpp.o -MF CMakeFiles/calculator.dir/GUIElement.cpp.o.d -o CMakeFiles/calculator.dir/GUIElement.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp"
+
+src/CMakeFiles/calculator.dir/GUIElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/GUIElement.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" > CMakeFiles/calculator.dir/GUIElement.cpp.i
+
+src/CMakeFiles/calculator.dir/GUIElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/GUIElement.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" -o CMakeFiles/calculator.dir/GUIElement.cpp.s
+
+src/CMakeFiles/calculator.dir/Text.cpp.o: src/CMakeFiles/calculator.dir/flags.make
+src/CMakeFiles/calculator.dir/Text.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Text.cpp
+src/CMakeFiles/calculator.dir/Text.cpp.o: src/CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/calculator.dir/Text.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/calculator.dir/Text.cpp.o -MF CMakeFiles/calculator.dir/Text.cpp.o.d -o CMakeFiles/calculator.dir/Text.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp"
+
+src/CMakeFiles/calculator.dir/Text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/Text.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" > CMakeFiles/calculator.dir/Text.cpp.i
+
+src/CMakeFiles/calculator.dir/Text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/Text.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" -o CMakeFiles/calculator.dir/Text.cpp.s
+
+src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o: src/CMakeFiles/calculator.dir/flags.make
+src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp
+src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o: src/CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o -MF CMakeFiles/calculator.dir/CalculatorApp.cpp.o.d -o CMakeFiles/calculator.dir/CalculatorApp.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp"
+
+src/CMakeFiles/calculator.dir/CalculatorApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/CalculatorApp.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp" > CMakeFiles/calculator.dir/CalculatorApp.cpp.i
+
+src/CMakeFiles/calculator.dir/CalculatorApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/CalculatorApp.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp" -o CMakeFiles/calculator.dir/CalculatorApp.cpp.s
+
+src/CMakeFiles/calculator.dir/Event.cpp.o: src/CMakeFiles/calculator.dir/flags.make
+src/CMakeFiles/calculator.dir/Event.cpp.o: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/Event.cpp
+src/CMakeFiles/calculator.dir/Event.cpp.o: src/CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/calculator.dir/Event.cpp.o"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/calculator.dir/Event.cpp.o -MF CMakeFiles/calculator.dir/Event.cpp.o.d -o CMakeFiles/calculator.dir/Event.cpp.o -c "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Event.cpp"
+
+src/CMakeFiles/calculator.dir/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/Event.cpp.i"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Event.cpp" > CMakeFiles/calculator.dir/Event.cpp.i
+
+src/CMakeFiles/calculator.dir/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/Event.cpp.s"
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Event.cpp" -o CMakeFiles/calculator.dir/Event.cpp.s
+
 # Object files for target calculator
 calculator_OBJECTS = \
 "CMakeFiles/calculator.dir/main.cpp.o" \
-"CMakeFiles/calculator.dir/Button.cpp.o"
+"CMakeFiles/calculator.dir/Button.cpp.o" \
+"CMakeFiles/calculator.dir/Frame.cpp.o" \
+"CMakeFiles/calculator.dir/GUIElement.cpp.o" \
+"CMakeFiles/calculator.dir/Text.cpp.o" \
+"CMakeFiles/calculator.dir/CalculatorApp.cpp.o" \
+"CMakeFiles/calculator.dir/Event.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
 
 src/calculator: src/CMakeFiles/calculator.dir/main.cpp.o
 src/calculator: src/CMakeFiles/calculator.dir/Button.cpp.o
+src/calculator: src/CMakeFiles/calculator.dir/Frame.cpp.o
+src/calculator: src/CMakeFiles/calculator.dir/GUIElement.cpp.o
+src/calculator: src/CMakeFiles/calculator.dir/Text.cpp.o
+src/calculator: src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o
+src/calculator: src/CMakeFiles/calculator.dir/Event.cpp.o
 src/calculator: src/CMakeFiles/calculator.dir/build.make
 src/calculator: src/CMakeFiles/calculator.dir/compiler_depend.ts
 src/calculator: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3.so
 src/calculator: /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3_ttf.so
 src/calculator: src/CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable calculator"
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

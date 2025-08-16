@@ -9,8 +9,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/Button.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Event.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/Event.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/Event.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/Frame.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/GUIElement.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" "tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/__/src/Text.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/button_test.cpp" "tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/button_test.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/font_test.cpp" "tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/font_test.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/tests/frame_test.cpp" "tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o" "gcc" "tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o.d"
   "" "tests/calculator_tests" "gcc" "tests/CMakeFiles/calculator_tests.dir/link.d"
   )
 

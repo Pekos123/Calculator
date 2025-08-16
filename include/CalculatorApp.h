@@ -1,0 +1,113 @@
+#ifndef CALCULATORAPP_H
+#define CALCULATORAPP_H
+
+#pragma once
+
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_ttf.h>
+#include <memory>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <functional>
+
+#include "../include/Button.h"
+#include "../include/Frame.h"
+#include "../include/Event.h"
+
+
+namespace Config
+{
+    constexpr SDL_WindowFlags FLAGS = 0;
+
+    constexpr int WINDOW_WIDTH = 600;
+    constexpr int WINDOW_HEIGHT = 950;
+    constexpr int BUTTON_SIZE = 150;
+    constexpr int TEXT_FIELD_SIZE = 200;
+    constexpr int TARGET_FPS = 60;
+    constexpr int FRAME_DELAY = 1000 / TARGET_FPS; // ~16ms
+    constexpr int FRAME_SPACING = 50;
+    
+    constexpr char WINDOW_TITLE[] = "SDL3 Calculator";
+    constexpr char FONT_PATH[] = "font.otf";
+    constexpr int FONT_SIZE = 256;
+
+    constexpr int MAX_PRECISION = 6;
+}
+
+namespace Colors 
+{
+    constexpr SDL_Color BLACK = {0, 0, 0, 255};
+    constexpr SDL_Color GRAY = {20, 20, 20, 255};
+    constexpr SDL_Color WHITE = {255, 255, 255, 255};
+    constexpr SDL_Color ORANGE = {255, 149, 0, 255};
+    constexpr SDL_Color DARK_GRAY = {51, 51, 51, 255};
+    constexpr SDL_Color LIGHT_GRAY = {165, 165, 165, 255};
+}
+
+struct ButtonConfig
+{
+    const char* text;
+    SDL_Color fontColor;
+    SDL_Color buttonColor;
+    std::function<void()> func = NULL;
+};
+
+class CalculatorApp
+{
+private:
+    SDL_Renderer* renderer;
+    SDL_Window* window;
+    TTF_Font* font;
+
+    std::vector<GUIElement*> guiElements; 
+    std::vector<Button*> buttons;
+    std::unique_ptr<Text> equationText;
+
+    bool running = true;
+
+    std::string equationString  = "";
+    std::string firstNum = "";
+    std::string secNum = "";
+    char operation = NULL;
+public:
+    ~CalculatorApp();
+    CalculatorApp();
+
+    void run()
+    {
+        while(running)
+        {
+            Render();
+            HandleEvents();
+            SDL_Delay(Config::FRAME_DELAY);
+        }
+    }
+private:
+    bool Init();
+    bool InitSDL();
+    bool CreateWindow();
+    bool CreateRenderer();
+    bool LoadFont();
+    
+    void Render();
+    void ClearScreen();
+    void DrawGUI();
+    void DrawTextBackground();
+    void HandleEvents();
+    void FramesSetup();
+    void ButtonsSetup();
+    void OutputTextSetup();
+    void Cleanup();
+
+    // Calc
+    void SumUpEquation();
+    void ClearEquation();
+    void AddOperation(const char operation);
+    void AddNumberToEquation(const char num);
+
+    Button* CreateButton(const ButtonConfig& config);
+ 
+    std::vector<ButtonConfig> ButtonConfigsSetup();
+};
+#endif
