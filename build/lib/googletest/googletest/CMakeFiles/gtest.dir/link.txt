@@ -1,2 +1,0 @@
-/sbin/ar qc ../../libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-/sbin/ranlib ../../libgtest.a
