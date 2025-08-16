@@ -1,6 +1,6 @@
-#CALCULATOR CREATED IN C++ USING RENDER LIB SDL3
+# CALCULATOR CREATED IN C++ USING RENDER LIB SDL3
 
-###How to build project?
+## How to build project?
 Linux Ubuntu/Debian
 ```bash
 mkdir build
@@ -9,7 +9,7 @@ cmake ../CMakeLists.txt
 make
 ```
 
-###Project Structure
+## Project Structure
 Calculator/
 ├── src/                    # Source files
 │   ├── main.cpp           # Application entry point
@@ -33,11 +33,12 @@ Calculator/
 ├── .gitignore          # Git ignore rules
 └── README.md           # This file
 
-###Architecture
-The calculator follows a modular architecture:
+## Architecture
+- *The calculator follows a modular architecture:*
 
-CalculatorApp: Main application class handling initialization and game loop
-GUIElement: Base class for all UI components
-Button: Interactive button component with text and click event handling
-Text: Text rendering component using SDL3_ttf
-Frame: Layout container for organizing UI elements
+- **CalculatorApp**: Main application class handling initialization and game loop
+- **GUIElement**: Base class for all UI components  
+- **Button**: Interactive button component with text and click event handling
+- **Text**: Text rendering component using SDL3_ttf
+- **Frame**: Layout container for organizing UI elements
+
