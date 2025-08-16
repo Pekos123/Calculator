@@ -8,6 +8,7 @@ calculator: \
   CMakeFiles/calculator.dir/GUIElement.cpp.o \
   CMakeFiles/calculator.dir/Text.cpp.o \
   CMakeFiles/calculator.dir/CalculatorApp.cpp.o \
+  CMakeFiles/calculator.dir/Event.cpp.o \
   /home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3.so \
   /home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3_ttf.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
@@ -65,6 +66,8 @@ CMakeFiles/calculator.dir/GUIElement.cpp.o:
 CMakeFiles/calculator.dir/Text.cpp.o:
 
 CMakeFiles/calculator.dir/CalculatorApp.cpp.o:
+
+CMakeFiles/calculator.dir/Event.cpp.o:
 
 /home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/lib/SDL3/local/lib/libSDL3.so:
 

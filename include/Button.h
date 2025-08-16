@@ -8,15 +8,18 @@
 
 #include "../include/GUIElement.h"
 #include "../include/Text.h"
+#include "../include/Event.h"
 
 class Button : public GUIElement
 {
 private:
     bool hover = false;
 
-    // Bakcground
     SDL_Color backgroundColor;
     SDL_Color hoverColor = {255, 255, 255, 80};
+    SDL_Texture* hoverTexture;
+
+    SDL_Texture* CreateColorTexture(SDL_Color color);
     void DrawHover();
 public:
     Button(SDL_Renderer* renderer, 
@@ -24,8 +27,9 @@ public:
            const SDL_FRect& rect,
            std::shared_ptr<Text> text);
 
-    std::shared_ptr<Text> text = nullptr;
-    
+    std::shared_ptr<Text> text = nullptr; 
+    Event event;
+
     void Draw() override;
     bool IsButtonPressed(const SDL_Event* ev);
  

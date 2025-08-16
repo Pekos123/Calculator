@@ -314,4 +314,5 @@ tests/CMakeFiles/calculator_tests.dir/frame_test.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/Button.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/Text.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/../include/GUIElement.h
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/../include/GUIElement.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/tests/../include/../include/Event.h

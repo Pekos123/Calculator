@@ -5,12 +5,15 @@
 
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_ttf.h>
-#include <iostream>
 #include <memory>
+#include <iostream>
+#include <string>
 #include <vector>
+#include <functional>
 
 #include "../include/Button.h"
 #include "../include/Frame.h"
+#include "../include/Event.h"
 
 
 namespace Config
@@ -28,6 +31,8 @@ namespace Config
     constexpr char WINDOW_TITLE[] = "SDL3 Calculator";
     constexpr char FONT_PATH[] = "font.otf";
     constexpr int FONT_SIZE = 256;
+
+    constexpr int MAX_PRECISION = 6;
 }
 
 namespace Colors 
@@ -44,7 +49,8 @@ struct ButtonConfig
 {
     const char* text;
     SDL_Color fontColor;
-    SDL_Color buttonColor; 
+    SDL_Color buttonColor;
+    std::function<void()> func = NULL;
 };
 
 class CalculatorApp
@@ -55,10 +61,15 @@ private:
     TTF_Font* font;
 
     std::vector<GUIElement*> guiElements; 
-    //std::vector<std::unique_ptr<Text>> texts;
     std::vector<Button*> buttons;
-    
+    std::unique_ptr<Text> equationText;
+
     bool running = true;
+
+    std::string equationString  = "";
+    std::string firstNum = "";
+    std::string secNum = "";
+    char operation = NULL;
 public:
     ~CalculatorApp();
     CalculatorApp();
@@ -82,10 +93,18 @@ private:
     void Render();
     void ClearScreen();
     void DrawGUI();
+    void DrawTextBackground();
     void HandleEvents();
     void FramesSetup();
     void ButtonsSetup();
+    void OutputTextSetup();
     void Cleanup();
+
+    // Calc
+    void SumUpEquation();
+    void ClearEquation();
+    void AddOperation(const char operation);
+    void AddNumberToEquation(const char num);
 
     Button* CreateButton(const ButtonConfig& config);
  

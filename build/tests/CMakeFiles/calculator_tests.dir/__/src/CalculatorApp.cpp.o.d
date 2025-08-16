@@ -1,100 +1,28 @@
 tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o: \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp \
- /usr/include/stdc-predef.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/CalculatorApp.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_stdinc.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform_defines.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/stdc-predef.h /usr/include/c++/15.1.1/sstream \
+ /usr/include/c++/15.1.1/bits/requires_hosted.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/string.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/wchar.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/types/wint_t.h \
- /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_begin_code.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_close_code.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_assert.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_asyncio.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_atomic.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_audio.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_endian.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_error.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_mutex.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_thread.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_properties.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_iostream.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_bits.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_blendmode.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_camera.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_pixels.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_surface.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_rect.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_clipboard.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_cpuinfo.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_dialog.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_video.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_events.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_gamepad.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_guid.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_joystick.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_power.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_sensor.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_keyboard.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_keycode.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_scancode.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_mouse.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_pen.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_touch.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_filesystem.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_gpu.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_haptic.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_hidapi.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_hints.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_init.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_loadso.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_locale.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_log.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_messagebox.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_metal.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_misc.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_process.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_render.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_storage.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_system.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_time.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_timer.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
- /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
- /usr/include/c++/15.1.1/iostream \
- /usr/include/c++/15.1.1/bits/requires_hosted.h \
- /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
- /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/15.1.1/pstl/pstl_config.h \
- /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
- /usr/include/c++/15.1.1/ios /usr/include/c++/15.1.1/iosfwd \
- /usr/include/c++/15.1.1/bits/stringfwd.h \
+ /usr/include/c++/15.1.1/istream /usr/include/c++/15.1.1/ios \
+ /usr/include/c++/15.1.1/iosfwd /usr/include/c++/15.1.1/bits/stringfwd.h \
  /usr/include/c++/15.1.1/bits/memoryfwd.h \
  /usr/include/c++/15.1.1/bits/postypes.h /usr/include/c++/15.1.1/cwchar \
- /usr/include/c++/15.1.1/exception \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception.h \
  /usr/include/c++/15.1.1/bits/version.h \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
@@ -109,7 +37,10 @@ tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o: \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/15.1.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.1.1/cctype \
- /usr/include/ctype.h /usr/include/c++/15.1.1/bits/ios_base.h \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/endian.h /usr/include/bits/endianness.h \
+ /usr/include/c++/15.1.1/bits/ios_base.h \
  /usr/include/c++/15.1.1/ext/atomicity.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -175,7 +106,9 @@ tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o: \
  /usr/include/c++/15.1.1/ext/string_conversions.h \
  /usr/include/c++/15.1.1/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/sys/types.h /usr/include/sys/select.h \
+ /usr/include/sys/types.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
  /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/15.1.1/bits/std_abs.h /usr/include/c++/15.1.1/cstdio \
@@ -209,8 +142,85 @@ tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o: \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/15.1.1/bits/locale_facets.tcc \
  /usr/include/c++/15.1.1/bits/basic_ios.tcc \
- /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
- /usr/include/c++/15.1.1/bits/istream.tcc /usr/include/c++/15.1.1/memory \
+ /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
+ /usr/include/c++/15.1.1/bits/ostream.tcc \
+ /usr/include/c++/15.1.1/bits/istream.tcc \
+ /usr/include/c++/15.1.1/bits/sstream.tcc /usr/include/c++/15.1.1/iomanip \
+ /usr/include/c++/15.1.1/locale \
+ /usr/include/c++/15.1.1/bits/locale_facets_nonio.h \
+ /usr/include/c++/15.1.1/ctime \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/15.1.1/bits/codecvt.h \
+ /usr/include/c++/15.1.1/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/15.1.1/bits/locale_conv.h \
+ /usr/include/c++/15.1.1/bits/quoted_string.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/CalculatorApp.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_stdinc.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform_defines.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/string.h \
+ /usr/include/strings.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_begin_code.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_close_code.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_assert.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_asyncio.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_atomic.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_audio.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_endian.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_error.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_mutex.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_thread.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_properties.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_iostream.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_bits.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_blendmode.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_camera.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_pixels.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_surface.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_rect.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_clipboard.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_cpuinfo.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_dialog.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_video.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_events.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_gamepad.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_guid.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_joystick.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_power.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_sensor.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_keyboard.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_keycode.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_scancode.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_mouse.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_pen.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_touch.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_filesystem.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_gpu.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_haptic.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_hidapi.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_hints.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_init.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_loadso.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_locale.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_log.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_messagebox.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_metal.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_misc.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_platform.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_process.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_render.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_storage.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_system.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_time.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_timer.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_tray.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_version.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_oldnames.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/lib/SDL3/local/include/SDL3/SDL_ttf.h \
+ /usr/include/c++/15.1.1/memory \
  /usr/include/c++/15.1.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h \
@@ -227,11 +237,23 @@ tests/CMakeFiles/calculator_tests.dir/__/src/CalculatorApp.cpp.o: \
  /usr/include/c++/15.1.1/backward/auto_ptr.h \
  /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.1.1/pstl/execution_defs.h \
- /usr/include/c++/15.1.1/vector /usr/include/c++/15.1.1/bits/stl_vector.h \
+ /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/vector \
+ /usr/include/c++/15.1.1/bits/stl_vector.h \
  /usr/include/c++/15.1.1/bits/stl_bvector.h \
  /usr/include/c++/15.1.1/bits/vector.tcc \
+ /usr/include/c++/15.1.1/functional \
+ /usr/include/c++/15.1.1/bits/std_function.h \
+ /usr/include/c++/15.1.1/unordered_map \
+ /usr/include/c++/15.1.1/bits/unordered_map.h \
+ /usr/include/c++/15.1.1/bits/hashtable.h \
+ /usr/include/c++/15.1.1/bits/hashtable_policy.h \
+ /usr/include/c++/15.1.1/bits/enable_special_members.h \
+ /usr/include/c++/15.1.1/bits/node_handle.h \
+ /usr/include/c++/15.1.1/bits/erase_if.h /usr/include/c++/15.1.1/array \
+ /usr/include/c++/15.1.1/compare \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/Button.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/GUIElement.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/Text.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/../include/GUIElement.h \
+ /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/../include/Event.h \
  /home/pablo/Desktop/C++\ Projects/learn_cpp/Calculator/src/../include/../include/Frame.h

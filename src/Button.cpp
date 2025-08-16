@@ -1,5 +1,4 @@
 #include "../include/Button.h"
-#include <iostream>
 
 Button::Button(SDL_Renderer* renderer, 
                const SDL_Color& backgroundColor,
@@ -11,6 +10,22 @@ Button::Button(SDL_Renderer* renderer,
     this->renderer = renderer;
     this->backgroundColor = backgroundColor;
     this->text = text;
+
+    this->hoverTexture = CreateColorTexture(hoverColor);
+}
+
+SDL_Texture* Button::CreateColorTexture(SDL_Color color) {
+    // Create a temporary surface
+    SDL_Surface* surface = SDL_CreateSurface(rect.w, rect.h, SDL_PIXELFORMAT_RGBA8888);
+    SDL_PixelFormat format = surface->format;
+
+    SDL_FillSurfaceRect(surface, NULL, SDL_MapRGBA(SDL_GetPixelFormatDetails(format), nullptr, color.r, color.g, color.b, color.a));
+    
+    // Convert to texture
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+    SDL_DestroySurface(surface);
+    
+    return texture;
 }
 
 void Button::Draw()
@@ -28,11 +43,7 @@ void Button::Draw()
 
 void Button::DrawHover()
 {
-    SDL_Surface* surface = SDL_CreateSurface(rect.w, rect.h, SDL_PIXELFORMAT_RGBA8888);
-    // u have to do it by texture but will work
-
-    SDL_SetRenderDrawColor(renderer, hoverColor.r, hoverColor.g, hoverColor.b, hoverColor.a);
-    SDL_RenderFillRect(renderer, &rect);
+    SDL_RenderTexture(renderer, hoverTexture, NULL, &rect);
 }
 
 bool Button::IsButtonPressed(const SDL_Event* ev)
@@ -44,6 +55,7 @@ bool Button::IsButtonPressed(const SDL_Event* ev)
                 ev->button.y >= GUIElement::GetRect().y &&
                 ev->button.y <= (GUIElement::GetRect().y + GUIElement::GetRect().h)) {
             hover = true;
+            event.Invoke();
             return true;
         }
     }

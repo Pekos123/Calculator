@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Button.cpp" "src/CMakeFiles/calculator.dir/Button.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/Button.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/CalculatorApp.cpp" "src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/CalculatorApp.cpp.o.d"
+  "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Event.cpp" "src/CMakeFiles/calculator.dir/Event.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/Event.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Frame.cpp" "src/CMakeFiles/calculator.dir/Frame.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/Frame.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/GUIElement.cpp" "src/CMakeFiles/calculator.dir/GUIElement.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/GUIElement.cpp.o.d"
   "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/src/Text.cpp" "src/CMakeFiles/calculator.dir/Text.cpp.o" "gcc" "src/CMakeFiles/calculator.dir/Text.cpp.o.d"

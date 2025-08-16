@@ -21,6 +21,7 @@ public:
 
     void Draw() override;
     void SetColor(const SDL_Color& color);
+    void SetText(const char* text);
 
     SDL_Color GetFontColor();
      

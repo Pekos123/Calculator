@@ -6,6 +6,7 @@ add_executable(calculator_tests
     ../src/GUIElement.cpp
     ../src/Text.cpp
     ../src/CalculatorApp.cpp
+    ../src/Event.cpp
     button_test.cpp
     font_test.cpp
     frame_test.cpp

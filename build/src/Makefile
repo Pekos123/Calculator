@@ -223,6 +223,30 @@ CalculatorApp.cpp.s:
 	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/CalculatorApp.cpp.s
 .PHONY : CalculatorApp.cpp.s
 
+Event.o: Event.cpp.o
+.PHONY : Event.o
+
+# target to build an object file
+Event.cpp.o:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Event.cpp.o
+.PHONY : Event.cpp.o
+
+Event.i: Event.cpp.i
+.PHONY : Event.i
+
+# target to preprocess a source file
+Event.cpp.i:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Event.cpp.i
+.PHONY : Event.cpp.i
+
+Event.s: Event.cpp.s
+.PHONY : Event.s
+
+# target to generate assembly for a file
+Event.cpp.s:
+	cd "/home/pablo/Desktop/C++ Projects/learn_cpp/Calculator/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator.dir/build.make src/CMakeFiles/calculator.dir/Event.cpp.s
+.PHONY : Event.cpp.s
+
 Frame.o: Frame.cpp.o
 .PHONY : Frame.o
 
@@ -338,6 +362,9 @@ help:
 	@echo "... CalculatorApp.o"
 	@echo "... CalculatorApp.i"
 	@echo "... CalculatorApp.s"
+	@echo "... Event.o"
+	@echo "... Event.i"
+	@echo "... Event.s"
 	@echo "... Frame.o"
 	@echo "... Frame.i"
 	@echo "... Frame.s"
