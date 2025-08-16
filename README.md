@@ -21,7 +21,7 @@ Calculator/
 │   ├── GUIElement.cpp     # Base UI element class
 │   └── CMakeLists.txt     # CMake build configuration
 ├── include/               # Header files
-│   ├── CalculatorApp.h
+│   ├── CalculatorApp.h          
 │   ├── Button.h         
 │   ├── Text.h           
 │   ├── Frame.h          
@@ -34,11 +34,12 @@ Calculator/
 └── README.md           # This file
 
 ## Architecture
-- *The calculator follows a modular architecture:*
+*The calculator follows a modular architecture:*
 
 - **CalculatorApp**: Main application class handling initialization and game loop
 - **GUIElement**: Base class for all UI components  
 - **Button**: Interactive button component with text and click event handling
 - **Text**: Text rendering component using SDL3_ttf
 - **Frame**: Layout container for organizing UI elements
+
 
