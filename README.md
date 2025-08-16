@@ -31,11 +31,13 @@ Calculator/
 │   ├── Frame.h          
 │   ├── Event.h          
 │   ├── GUIElement.h     
-│   └── CMakeLists.txt     # CMake build configuration
-├── font.otf         # Application font
-├── CMakeLists.txt       # CMake build configuration
-├── .gitignore          # Git ignore rules
-└── README.md           # This file
+│   └── CMakeLists.txt     # CMake build configuratio
+├── tests/                # Unit test using Gtest lib
+├── lib/                  
+├── font.otf               # Application font
+├── CMakeLists.txt         # CMake build configuration
+├── .gitignore             # Git ignore rules
+└── README.md              # This file
 ```
 ## Architecture
 *The calculator follows a modular architecture:*
@@ -46,9 +48,18 @@ Calculator/
 - **Text**: Text rendering component using SDL3_ttf
 - **Frame**: Layout container for organizing UI elements
 
+### Dependencies
+
+- SDL3
+- SDL3_ttf
+- GTest
+- CMake (build system)
+- **C++17** compatible compiler
+
 ## Photos
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/77d265f6-353f-4c54-a174-a37460baf150" />
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/edaa05d3-3f1d-4db1-b8d6-18f9a57c087c" />
+
 
 
 
