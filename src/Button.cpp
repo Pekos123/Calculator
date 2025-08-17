@@ -12,8 +12,19 @@ Button::Button(SDL_Renderer* renderer,
     this->text = text;
 
     this->hoverTexture = CreateColorTexture(hoverColor);
-}
+    this->clickedTexture = CreateColorTexture(clickedColor); 
 
+    CalculatePositions();
+}
+void Button::CalculatePositions()
+{
+    text->SetPosition(rect.x + ((rect.w - text->GetRect().w) / 2), rect.y);
+}
+void Button::SetPosition(float x, float y)
+{
+    GUIElement::SetPosition(x, y);
+    CalculatePositions();
+}
 SDL_Texture* Button::CreateColorTexture(SDL_Color color) {
     // Create a temporary surface
     SDL_Surface* surface = SDL_CreateSurface(rect.w, rect.h, SDL_PIXELFORMAT_RGBA8888);
@@ -29,38 +40,63 @@ SDL_Texture* Button::CreateColorTexture(SDL_Color color) {
 }
 
 void Button::Draw()
-{
+{ 
     SDL_SetRenderDrawColor(renderer, backgroundColor.r, backgroundColor.g, backgroundColor.b, backgroundColor.a);
     SDL_RenderFillRect(renderer, &rect); // doeasnt render well idk why
     // same with text its having not that color
 
-    text->SetPosition(rect.x + ((rect.w - text->GetRect().w) / 2), rect.y);
     text->Draw(); // Segmentantion fault core dumped
-
-    if(hover)
-        DrawHover();
+    
+    switch (currentState) {
+        case Hovering:
+            DrawHover(hoverTexture);
+            break;
+        case Clicked:
+            DrawHover(clickedTexture);
+            break;
+        default:
+            break;
+    } 
 }
 
-void Button::DrawHover()
+void Button::DrawHover(SDL_Texture* texture)
 {
-    SDL_RenderTexture(renderer, hoverTexture, NULL, &rect);
+    SDL_RenderTexture(renderer, texture, NULL, &rect);
 }
-
+bool Button::IsMouseHoveringButton(const SDL_Event* ev)
+{
+    return (ev->button.x >= GUIElement::GetRect().x &&
+                ev->button.x <= (GUIElement::GetRect().x + GUIElement::GetRect().w) &&
+                ev->button.y >= GUIElement::GetRect().y &&
+                ev->button.y <= (GUIElement::GetRect().y + GUIElement::GetRect().h));
+}
 bool Button::IsButtonPressed(const SDL_Event* ev)
 {
      if(ev->type == SDL_EVENT_MOUSE_BUTTON_DOWN) {
-        if(ev->button.button == SDL_BUTTON_LEFT &&
-                ev->button.x >= GUIElement::GetRect().x &&
-                ev->button.x <= (GUIElement::GetRect().x + GUIElement::GetRect().w) &&
-                ev->button.y >= GUIElement::GetRect().y &&
-                ev->button.y <= (GUIElement::GetRect().y + GUIElement::GetRect().h)) {
-            hover = true;
+        if(ev->button.button == SDL_BUTTON_LEFT && IsMouseHoveringButton(ev)) {
             event.Invoke();
             return true;
         }
     }
-    hover = false;
     return false;
+}
+void Button::ButtonStateHandler(const SDL_Event* ev)
+{
+    if(IsMouseHoveringButton(ev))
+    {
+        currentState = ButtonState::Hovering;
+        if(IsButtonPressed(ev))
+        {
+            currentState = ButtonState::Clicked;
+            return;
+        }
+        return;
+    }
+    currentState = ButtonState::Default;
+}
+void Button::EventHandler(const SDL_Event* ev)
+{
+    ButtonStateHandler(ev);
 }
 
 SDL_Color Button::GetBackgroundColor()

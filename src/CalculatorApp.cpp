@@ -202,7 +202,7 @@ void CalculatorApp::HandleEvents()
                 break;        
         }
         for(Button* button : buttons)
-            button->IsButtonPressed(&event);
+            button->EventHandler(&event);
         // ALL ADD IsButtonPressed IN This
         // AND DO FUNCTION FOR CHECKING CHAR (TEXT)
         // SWITCH WITH CASES FOR MATHF SYMBOLS AND DEAFAULT FOR NUMS
@@ -313,6 +313,8 @@ void CalculatorApp::AddOperation(const char operation)
 }
 void CalculatorApp::AddNumberToEquation(const char num)
 {
+    if(firstNum != "")
+        ClearEquation();
     if(operation == NULL)
         firstNum += num;
     else

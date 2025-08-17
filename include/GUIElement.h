@@ -11,7 +11,7 @@ protected:
 public:
     virtual void Draw() {}
 
-    void SetPosition(float x, float y);
+    virtual void SetPosition(float x, float y);
     void SetSize(float w, float h);
     
     SDL_FRect GetRect(); 

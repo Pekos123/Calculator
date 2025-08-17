@@ -5,6 +5,7 @@ add_executable(calculator
     GUIElement.cpp
     Text.cpp
     CalculatorApp.cpp
+    CalculatorEngine.cpp
     Event.cpp
 )
 
