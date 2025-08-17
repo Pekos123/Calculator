@@ -29,7 +29,7 @@ namespace Config
     constexpr int FRAME_SPACING = 50;
     
     constexpr char WINDOW_TITLE[] = "SDL3 Calculator";
-    constexpr char FONT_PATH[] = "font.otf";
+    constexpr char FONT_PATH[] = "../font.otf";
     constexpr int FONT_SIZE = 256;
 
     constexpr int MAX_PRECISION = 6;
