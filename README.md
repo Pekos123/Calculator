@@ -17,6 +17,14 @@ cd build
 cmake ../CMakeLists.txt
 make
 ```
+3. Run calculator
+```bash
+src/calculator
+```
+*for tests*
+```bash
+tests/calculator_tests
+```
 
 ## Calculator Usage
 - **ESC** Key for **quit**
@@ -73,6 +81,7 @@ Calculator/
 ## Photos
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/77d265f6-353f-4c54-a174-a37460baf150" />
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/edaa05d3-3f1d-4db1-b8d6-18f9a57c087c" />
+
 
 
 
