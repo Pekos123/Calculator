@@ -1,7 +1,7 @@
 # CALCULATOR CREATED IN C++ USING RENDER LIB SDL3
 
 ## About
-Its simple 600x950 Calculator created in C++ 17 using SDL3 lib used for renderering.<p>**PROJECT DONT HAVE COMPLETED MATH LOGIC**
+Its simple 600x950 Calculator created in C++ 17 using SDL3 lib used for renderering.<p>
 
 ## How to build project?
 **Linux Ubuntu/Debian:**
@@ -17,6 +17,11 @@ cd build
 cmake ../CMakeLists.txt
 make
 ```
+
+## Calculator Usage
+- **ESC** Key for **quit**
+- **Suported math operations:** '-' subtraction, '+' addition, ':' devide, 'x' multiplication;
+- **Other** '±' toggle negative number sign, '.' adding decimal point, '=' calculate resaults;
 
 ## Project Structure
 ```

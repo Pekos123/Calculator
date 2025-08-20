@@ -1,6 +1,3 @@
-#include <sstream>
-#include <iomanip>
-
 #include "../include/CalculatorApp.h"
 
 
@@ -123,39 +120,40 @@ void CalculatorApp::OutputTextSetup()
 
     equationText = std::make_unique<Text>(equationString.c_str(), this->font, Colors::BLACK, bounds, this->renderer);
     guiElements.push_back(equationText.get());
+    RefreshText();
 }
 
 std::vector<ButtonConfig> CalculatorApp::ButtonConfigsSetup()
 {
     return 
     {
-        {"C",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { ClearEquation(); }},
-        {"±",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { AddOperation(' '); } },
-        {"%",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { AddOperation('%'); }},
-        {"÷",  Colors::ORANGE,     Colors::WHITE, [this]() { AddOperation(':'); }},
+        {"C",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { calEngine.ClearEquation(); }},
+        {"±",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { calEngine.ChangeNumberSign(); } },
+        {"%",  Colors::LIGHT_GRAY, Colors::BLACK, [this]() { calEngine.SetOperation('%'); }},
+        {"÷",  Colors::ORANGE,     Colors::WHITE, [this]() { calEngine.SetOperation(':'); }},
         
         // Row 1 - Numbers 7,8,9 and multiply
-        {"7",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('7'); }},
-        {"8",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('8'); }},
-        {"9",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('9'); }},
-        {"×",  Colors::ORANGE,     Colors::WHITE, [this]() { AddOperation('x'); }},
+        {"7",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('7'); }},
+        {"8",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('8'); }},
+        {"9",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('9'); }},
+        {"×",  Colors::ORANGE,     Colors::WHITE, [this]() { calEngine.SetOperation('x'); }},
         
         // Row 2 - Numbers 4,5,6 and subtract
-        {"4",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('4'); }},
-        {"5",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('5'); }},
-        {"6",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('6'); }},
-        {"-",  Colors::ORANGE,     Colors::WHITE, [this]() { AddOperation('-'); }},
+        {"4",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('4'); }},
+        {"5",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('5'); }},
+        {"6",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('6'); }},
+        {"-",  Colors::ORANGE,     Colors::WHITE, [this]() { calEngine.SetOperation('-'); }},
         
         // Row 3 - Numbers 1,2,3 and add
-        {"1",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('1'); }},
-        {"2",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('2'); }},
-        {"3",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddNumberToEquation('3'); }},
-        {"+",  Colors::ORANGE,     Colors::WHITE, [this]() { AddOperation('+'); }},
+        {"1",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('1'); }},
+        {"2",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('2'); }},
+        {"3",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('3'); }},
+        {"+",  Colors::ORANGE,     Colors::WHITE, [this]() { calEngine.SetOperation('+'); }},
         
         // Row 4 - 0, decimal, equals
-        {"0",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddOperation('0'); }}, // This could be double-width
-        {".",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { AddOperation('.'); }},
-        {"=",  Colors::ORANGE,     Colors::WHITE, [this]() { SumUpEquation(); }}
+        {"0",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterNumber('0'); }}, // This could be double-width
+        {".",  Colors::DARK_GRAY,  Colors::WHITE, [this]() { calEngine.EnterDecimalPoint(); }},
+        {"=",  Colors::ORANGE,     Colors::WHITE, [this]() { calEngine.SumUpEquation(); }}
     };
 }
 void CalculatorApp::ButtonsSetup()
@@ -169,11 +167,13 @@ void CalculatorApp::ButtonsSetup()
         ButtonConfig config = configs[i];
 
         Button* button = CreateButton(config);
+        button->event.AddListener([this]() {RefreshText();});
         guiElements.push_back(button);
         buttons.push_back(button);
     }
-
+    // Createing equal(=) button
     Button* button = CreateButton(configs[configs.size()-1]);
+    button->event.AddListener([this]() {RefreshText();});
     button->SetSize(Config::BUTTON_SIZE*2, button->GetRect().h);
     guiElements.push_back(button);
     buttons.push_back(button);
@@ -199,13 +199,13 @@ void CalculatorApp::HandleEvents()
         switch (event.type) {
             case SDL_EVENT_QUIT:
                 running = false;
-                break;        
+                break;
+            case SDL_EVENT_KEY_DOWN:
+                running = false;
+                break;
         }
         for(Button* button : buttons)
-            button->EventHandler(&event);
-        // ALL ADD IsButtonPressed IN This
-        // AND DO FUNCTION FOR CHECKING CHAR (TEXT)
-        // SWITCH WITH CASES FOR MATHF SYMBOLS AND DEAFAULT FOR NUMS
+            button->EventHandler(&event); 
     }
 }
 void CalculatorApp::Cleanup()
@@ -229,98 +229,4 @@ void CalculatorApp::Cleanup()
     
     TTF_Quit();
     SDL_Quit();
-}
-
-std::string FloatToString(float f)
-{
-    std::ostringstream oss;
-    oss << std::fixed << std::setprecision(Config::MAX_PRECISION); // Max precision
-    oss << f;
-    
-    std::string s = oss.str();
-    
-    // Remove trailing zeros and possibly the decimal point
-    s.erase(s.find_last_not_of('0') + 1, std::string::npos);
-    if (s.back() == '.') {
-        s.pop_back();
-    }
-    
-    return s;
-}
-void CalculatorApp::SumUpEquation()
-{
-    if(firstNum.empty() || secNum.empty())
-    {
-        equationString = "Error: invalid nums";
-        return;
-    }
-
-    float first = std::stoi(this->firstNum);
-    float sec = std::stoi(this->secNum);
-    float eq = 0.0f;
-
-    // core dumped stoi invalid argument
-    switch(operation)
-    {
-        case ':':
-            eq = first / sec;
-            break;
-        case 'x':
-            eq = first * sec;
-            break;
-        case '+':
-            eq = first + sec;
-            break;
-        case '-':
-            eq = first - sec;
-            break;
-
-        default:
-            ClearEquation();
-            equationString = "Error: Wrong Operation";
-            equationText->SetText(equationString.c_str());
-            return; 
-    }
-    
-    ClearEquation();
-
-    equationString = FloatToString(eq);
-    secNum = equationString;
-    equationText->SetText(equationString.c_str());
-}
-void CalculatorApp::ClearEquation()
-{
-    equationString = "";
-    operation = NULL;
-    firstNum = "";
-    secNum = "";
-
-    equationText->SetText(equationString.c_str());
-}
-void CalculatorApp::AddOperation(const char operation)
-{
-    if(secNum != "") // pomysl nad tym
-    {
-        SumUpEquation();
-        firstNum = secNum;
-        secNum = "";
-    }
-
-    this->operation = operation;
-    equationString += operation;
-    
-    equationText->SetText(equationString.c_str());
-}
-void CalculatorApp::AddNumberToEquation(const char num)
-{
-    if(firstNum != "")
-        ClearEquation();
-    if(operation == NULL)
-        firstNum += num;
-    else
-        secNum += num;
-
-    equationString += num;
-
-    equationText->SetText(equationString.c_str());
 }

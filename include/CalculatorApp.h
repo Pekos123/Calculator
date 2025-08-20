@@ -13,6 +13,7 @@
 
 #include "../include/Button.h"
 #include "../include/Frame.h"
+#include "../include/CalculatorEngine.h"
 #include "../include/Event.h"
 
 
@@ -67,9 +68,7 @@ private:
     bool running = true;
 
     std::string equationString  = "";
-    std::string firstNum = "";
-    std::string secNum = "";
-    char operation = NULL;
+    CalculatorEngine calEngine;
 public:
     ~CalculatorApp();
     CalculatorApp();
@@ -98,13 +97,8 @@ private:
     void FramesSetup();
     void ButtonsSetup();
     void OutputTextSetup();
+    void RefreshText() { equationText->SetText(calEngine.GetDisplayValue().c_str()); }
     void Cleanup();
-
-    // Calc
-    void SumUpEquation();
-    void ClearEquation();
-    void AddOperation(const char operation);
-    void AddNumberToEquation(const char num);
 
     Button* CreateButton(const ButtonConfig& config);
  
