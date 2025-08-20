@@ -21,22 +21,22 @@ make
 ## Calculator Usage
 - **ESC** Key for **quit**
 - **Suported math operations:** '-' subtraction, '+' addition, ':' devide, 'x' multiplication;
-- **Other** '±' toggle negative number sign, '.' adding decimal point, '=' calculate resaults;
+- **Other** '±' toggle negative number sign, '.' adding decimal point, '=' calculate results;
 
 ## Project Structure
 ```
 Calculator/          
-├── src/                   # Source files          
-│   ├── main.cpp           # Application entry point          
-│   ├── CalculatorApp.cpp  # Main application class   
-│   ├── CalculatorEngine.cpp  # All math logic 
-│   ├── Button.cpp         # Button UI component          
-│   ├── Text.cpp           # Text rendering component          
-│   ├── Frame.cpp          # UI layout container          
-│   ├── Event.cpp          # Events          
-│   ├── GUIElement.cpp     # Base UI element class          
-│   └── CMakeLists.txt     # CMake build configuration          
-├── include/               # Header files          
+├── src/                     # Source files          
+│   ├── main.cpp             # Application entry point          
+│   ├── CalculatorApp.cpp    # Main application class   
+│   ├── CalculatorEngine.cpp # All math logic 
+│   ├── Button.cpp           # Button UI component          
+│   ├── Text.cpp             # Text rendering component          
+│   ├── Frame.cpp            # UI layout container          
+│   ├── Event.cpp            # Events          
+│   ├── GUIElement.cpp       # Base UI element class          
+│   └── CMakeLists.txt       # CMake build configuration          
+├── include/                 # Header files          
 │   ├── CalculatorApp.h
 │   ├── CalculatorEngine.h         
 │   ├── Button.h         
@@ -44,13 +44,13 @@ Calculator/
 │   ├── Frame.h          
 │   ├── Event.h          
 │   ├── GUIElement.h     
-│   └── CMakeLists.txt     # CMake build configuratio
-├── tests/                # Unit test using Gtest lib
+│   └── CMakeLists.txt       # CMake build configuratio
+├── tests/                   # Unit test using Gtest lib
 ├── lib/                  
-├── font.otf               # Application font
-├── CMakeLists.txt         # CMake build configuration
-├── .gitignore             # Git ignore rules
-└── README.md              # This file
+├── font.otf                 # Application font
+├── CMakeLists.txt           # CMake build configuration
+├── .gitignore               # Git ignore rules
+└── README.md                # This file
 ```
 ## Architecture
 *The calculator follows a modular architecture:*
@@ -73,6 +73,7 @@ Calculator/
 ## Photos
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/77d265f6-353f-4c54-a174-a37460baf150" />
 <img width="106" height="320" alt="image" src="https://github.com/user-attachments/assets/edaa05d3-3f1d-4db1-b8d6-18f9a57c087c" />
+
 
 
 
