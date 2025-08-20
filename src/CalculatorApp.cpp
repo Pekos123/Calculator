@@ -201,7 +201,8 @@ void CalculatorApp::HandleEvents()
                 running = false;
                 break;
             case SDL_EVENT_KEY_DOWN:
-                running = false;
+                if(event.key.key == SDLK_ESCAPE)
+                    running = false;
                 break;
         }
         for(Button* button : buttons)

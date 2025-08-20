@@ -91,7 +91,7 @@ std::string CalculatorEngine::GetDisplayValue() const {
         case CalculatorState::OperationSelection:
             return firstNum;
         case CalculatorState::EnteringSecondNumber:
-            return secNum.empty() ? "0" : secNum;
+            return secNum == "0" ? firstNum : secNum;
         case CalculatorState::ShowingResults:
             return results;
         default:
@@ -124,6 +124,8 @@ void CalculatorEngine::SetOperation(char operation) {
     if (IsInErrorState()) {
         return;
     }
+    if(currentState == CalculatorState::EnteringSecondNumber)
+        SumUpEquation();
     
     if (currentState == CalculatorState::ShowingResults) {
         firstNum = results;
