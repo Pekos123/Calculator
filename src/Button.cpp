@@ -18,7 +18,8 @@ Button::Button(SDL_Renderer* renderer,
 }
 void Button::CalculatePositions()
 {
-    text->SetPosition(rect.x + ((rect.w - text->GetRect().w) / 2), rect.y);
+    if(text != nullptr)
+        text->SetPosition(rect.x + ((rect.w - text->GetRect().w) / 2), rect.y);
 }
 void Button::SetPosition(float x, float y)
 {

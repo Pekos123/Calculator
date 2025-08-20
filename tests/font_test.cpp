@@ -3,12 +3,12 @@
 
 bool init = TTF_Init();
 
-TEST(SDL_TTF, IS_INIT_PROPERLY)
+TEST(Font, IS_INIT_PROPERLY)
 {
     EXPECT_TRUE(init);
 }
 TEST(Font, Is_Font_Loading)
 {
-    TTF_Font* font = TTF_OpenFont("font.otf", 24);
+    TTF_Font* font = TTF_OpenFont("../font.otf", 24);
     EXPECT_NE(font, nullptr);
 }

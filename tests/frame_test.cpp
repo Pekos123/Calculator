@@ -32,6 +32,7 @@ TEST(Frame, Does_Frame_Changes_Button_Rect)
     );
     
     Frame frame({0, 0, 1000, 1000});
+    frame.elementsAligment = Aligment::Vertical;
     frame.AddElement(&button);
     frame.AlignElements();
     
