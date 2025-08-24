@@ -1,7 +1,11 @@
+#include <memory>
 #include <gtest/gtest.h>
+
 #include "../include/Button.h"
+#include "../include/Text.h"
 
 #define null {0, 0, 0, 0}
+#define WHITE {255, 255, 255, 255}
 
 bool AreColorsEqual(SDL_Color colorA, SDL_Color colorB)
 {
@@ -20,14 +24,21 @@ bool AreRectsEqual(SDL_FRect rectA, SDL_FRect rectB)
 
 TEST(Button, Isnt_NULL)
 {
-    // Init 
-    SDL_Renderer* renderer = nullptr;
-    SDL_FRect rect{20, 20, 20, 20};
-    SDL_Color color{255, 255, 255, 255};
-    std::shared_ptr<Text> text = std::make_shared<Text>("test", nullptr, color, rect, renderer);
-    Button button(renderer, color, rect, text);  
+    SDL_Renderer* renderer = nullptr; 
 
-    SDL_Color nullColor = null;
+    const uint8_t buttonSize = 150;
+    const SDL_FRect rect = { 0, 0, buttonSize, buttonSize};
+    TTF_Font* font = nullptr;
+
+    auto text = std::shared_ptr<Text>(new Text("test", font, WHITE, rect, renderer));
+    Button button(
+        renderer,
+        WHITE,
+        rect,
+        std::move(text)
+    );
+
+    SDL_Color nullColor = {0, 0, 0, 0};
     EXPECT_FALSE(AreRectsEqual(button.GetRect(), null));
     EXPECT_FALSE(AreColorsEqual(button.GetBackgroundColor(), nullColor));
     EXPECT_FALSE(AreColorsEqual(button.text->GetFontColor(), nullColor));

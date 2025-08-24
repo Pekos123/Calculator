@@ -8,7 +8,7 @@ add_executable(calculator_tests
     ../src/CalculatorApp.cpp
     ../src/CalculatorEngine.cpp
     ../src/Event.cpp
-    #button_test.cpp
+    button_test.cpp
     font_test.cpp
     frame_test.cpp
     calculator_logic_test.cpp

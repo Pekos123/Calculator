@@ -1,15 +1,10 @@
-#include <gtest/gtest.h>
 #include <memory>
+#include <gtest/gtest.h>
+
 #include "../include/Frame.h"
 #include "../include/Button.h"
 
-#define BLACK {0, 0, 0, 255}
-#define GRAY {20, 20, 20, 255}
 #define WHITE {255, 255, 255, 255}
-#define RED {255, 0, 0, 255}
-
-#define WINDOW_WIDTH 640
-#define WINDOW_HEIGHT 960
 
 SDL_FRect CenterRect(SDL_FRect rect)
 {

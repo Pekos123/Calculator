@@ -18,6 +18,12 @@ Text::Text(const char* text,
 
 void Text::CreateTexture()
 {
+    if(!font)
+    {
+        SDL_LogError(1, "ERROR: Null font");
+        return;
+    }
+
     SDL_Surface* surface;
     surface = TTF_RenderText_Solid(font, this->text, SDL_strlen(text),this->color);
     texture = SDL_CreateTextureFromSurface(renderer, surface);
